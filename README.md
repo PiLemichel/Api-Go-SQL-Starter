@@ -6,7 +6,7 @@ This project aims to accelerate the development of your api during a hackathon o
 
 ### Prerequisites
 
-For launch the sever you need Golang, if you don't have early install go to:
+For launch the sever you need Golang, if you have not installed before, go to:
 ```
 https://golang.org/doc/install
 ```
