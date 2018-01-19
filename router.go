@@ -13,7 +13,7 @@ var db *gorm.DB
 func init() {
  //open a db connection
  var err error
- db, err = gorm.Open("mysql", "root:root@tcp(localhost:8889)/user")
+       db, err = gorm.Open("mysql", "root:root@tcp(localhost:8889)/user") //"username:password@tcp(adresse:port)/dbname
  if err != nil {
   panic("failed to connect database")
  }
